@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+body{
+    font-family: 'Spline Sans', sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #F58d17;
+}
+img{
+    width: 100%;
+}
+.btn{
+    border: 0;
+    padding: 14px 38px;
+}
+.btn-brand{
+    color: #fff;
+    background-color: #F58d17;
+    border-color: #F58d17;
+    font-weight: 500;
+}
+.btn-brand:hover{
+    background-color: #e37e0b;
+    border-color: #e37e0b;
+    color: #fff;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+}

@@ -1,0 +1,82 @@
+/* Home.css */
+body {
+  background-color: white; /* Set the background color to white */
+  font-family: Arial, sans-serif; /* Choose an attractive font */
+}
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recipe-card {
+  width: calc(33.33% - 20px); /* Adjust the card width as needed */
+  margin: 10px;
+  background-color: #f9f9f9; /* Card background color */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05); /* Add a scaling effect on hover */
+}
+
+.recipe-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe-title {
+  font-size: 20px; /* Increase font size for titles */
+  margin: 10px 0;
+  color: #333; /* Dark text color */
+}
+
+.recipe-description {
+  font-size: 16px; /* Increase font size for descriptions */
+  color: #666; /* Slightly darker text color */
+  line-height: 1.5; /* Improve readability with line-height */
+}
+
+.recipe-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 20px; /* Add some padding to the link */
+  background-color: #4f8ee6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.recipe-link:hover {
+  background-color: #8fe7fd;
+}
+
+/* Additional styles for the header image */
+.header-image img {
+  max-width: 60%;
+  height: auto;
+  margin: 0 auto; /* Center the image horizontally */
+}

@@ -1,0 +1,39 @@
+/* RecipeList.css */
+.recipe-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .recipe-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .recipe-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .recipe-card h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .recipe-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+  }
+  

@@ -1,0 +1,62 @@
+.fo {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+  
+  /* Style the form container */
+  form {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style form labels */
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style form inputs and textarea */
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  /* Style form submit button */
+  form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for submit button */
+  form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+  }
+  h2{
+    align-content: center;
+    color: #0056b3;
+    text-align: center;
+  }
+  

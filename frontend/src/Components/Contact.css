@@ -1,0 +1,81 @@
+/* ContactPage.css */
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+.contact-heading {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-columns {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align columns at the top */
+  margin-top: 20px;
+}
+
+.contact-column {
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  max-width: 300px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-column:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.subtext {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.phone-number {
+  color: #0015ff;
+}
+
+.action-button {
+  background-color: #4f8ee6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #8fe7fd;
+}

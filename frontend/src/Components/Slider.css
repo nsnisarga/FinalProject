@@ -1,0 +1,40 @@
+.carousel-inner{
+     height: 300px;
+}
+
+.item, .s1{
+    height: 70% !important;
+    width:  80% !important;
+    border-color: rgb(250, 245, 245);
+}
+img{
+    width: max-content;
+    height: max-content;
+}
+.carousel-wrapper{
+    align-items: center;
+    width: min-content;
+    height: 50px;
+    align-content: center;
+}
+.desc{
+    background-color: #e3c15b;
+    border: 5px solid;
+    border-color: #e3c15b;
+    border-radius: 8px;
+    position: absolute;
+    box-shadow: #503e06;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    
+}
+#carousel{
+    width: 400px;
+    height: 100px;
+  }
+  .s1 {
+    max-width: 100%; /* Adjust this value as needed */
+    height: 100px; /* This ensures the aspect ratio is maintained */
+  }

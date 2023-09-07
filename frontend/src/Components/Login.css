@@ -1,0 +1,50 @@
+/* Login.css */
+
+/* Apply styles to the entire page */
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9; /* Adjust the opacity to control the fade effect (0.1 to 1) */
+    background-color: #ffffff; /* Blue background color */
+}
+
+/* Apply styles to the content container */
+.background-image-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Additional styles specific to the login page */
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8); /* Example background color with opacity */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Styles for login input fields and buttons */
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  background-color: #d7dce1; /* Example button color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #ffffff; /* Example button color on hover */
+}
